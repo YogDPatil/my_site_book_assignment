@@ -11,14 +11,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.ui.tests.LoginPageTest -->
-      <class name="com.ui.tests.ProjectListPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="goToProjectDetailsPage"/>
-          <include name="testUserRedirectProjectDetailsPageAfterSelectingProject"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.ui.tests.ProjectListPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

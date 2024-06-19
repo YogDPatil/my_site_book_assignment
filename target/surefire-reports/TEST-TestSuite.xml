@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.794" tests="6" errors="0" skipped="2" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.657" tests="4" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/surefire/surefirebooter-20240619122502538_3.jar /Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/surefire 2024-06-19T12-25-02_429-jvmRun1 surefire-20240619122502538_1tmp surefire_0-20240619122502538_2tmp"/>
+    <property name="sun.java.command" value="/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/surefire/surefirebooter-20240619123224933_3.jar /Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/surefire 2024-06-19T12-32-24_836-jvmRun1 surefire-20240619123224933_1tmp surefire_0-20240619123224933_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="ProjectDetailsPageTest, LoginPageTest,ProjectListPageTest"/>
+    <property name="test" value="ProjectDetailsPageTest, LoginPageTest"/>
     <property name="surefire.test.class.path" value="/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/test-classes:/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/classes:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/codeclouds-yogesh/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/codeclouds-yogesh/.m2/repository/net/bytebuddy/byte-buddy/1.14.14/byte-buddy-1.14.14.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/codeclouds-yogesh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/codeclouds-yogesh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/codeclouds-yogesh/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/codeclouds-yogesh/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/codeclouds-yogesh/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/codeclouds-yogesh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/codeclouds-yogesh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/codeclouds-yogesh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/codeclouds-yogesh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/codeclouds-yogesh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/codeclouds-yogesh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/surefire/surefirebooter-20240619122502538_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/target/surefire/surefirebooter-20240619123224933_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="goToProjectListPage" classname="com.ui.tests.LoginPageTest" time="3.275">
+  <testcase name="goToProjectListPage" classname="com.ui.tests.LoginPageTest" time="17.046">
     <failure message="Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null
 	at com.ui.tests.LoginPageTest.goToProjectListPage(LoginPageTest.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -80,37 +80,18 @@
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 19, 2024 12:25:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 19, 2024 12:32:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 126
 ]]></system-err>
   </testcase>
   <testcase name="doLogin" classname="com.ui.tests.LoginPageTest" time="0">
     <skipped message="Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null"/>
   </testcase>
-  <testcase name="goToProjectDetailsPage" classname="com.ui.tests.ProjectListPageTest" time="3.276">
-    <failure message="Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null
-	at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-  </testcase>
-  <testcase name="testUserRedirectProjectDetailsPageAfterSelectingProject" classname="com.ui.tests.ProjectListPageTest" time="0">
-    <skipped message="Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null"/>
-  </testcase>
-  <testcase name="testUserRedirectsQuatationPageByClickingDetailedEstimate" classname="com.ui.tests.ProjectDetailsPageTest" time="0.542">
+  <testcase name="testUserRedirectsQuatationPageByClickingDetailedEstimate" classname="com.ui.tests.ProjectDetailsPageTest" time="0.561">
     <system-out><![CDATA[/Users/codeclouds-yogesh/Documents/MyEclipseWorkspace/MySiteBook/src/test/resources/config/qaCred.properties
 ]]></system-out>
   </testcase>
-  <testcase name="testQuotationDetails" classname="com.ui.tests.ProjectDetailsPageTest" time="0.65">
+  <testcase name="testQuotationDetails" classname="com.ui.tests.ProjectDetailsPageTest" time="0.672">
     <system-out><![CDATA[******* 2392423.0
 $$$$$$$ 2392423.0
 Quotation data is correct

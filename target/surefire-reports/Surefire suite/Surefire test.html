@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 19 12:25:02 IST 2024</td>
+<td>Started on:</td><td>Wed Jun 19 12:32:25 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6624 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23495 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -82,8 +82,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1616471484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1616471484'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669384365", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace669384365'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
 	at com.ui.tests.LoginPageTest.goToProjectListPage(LoginPageTest.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -98,31 +98,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
 <td>0</td>
-<td>com.ui.tests.LoginPageTest@3bbc39f8</td></tr>
-<tr>
-<td title='com.ui.tests.ProjectListPageTest.goToProjectDetailsPage()'><b>goToProjectDetailsPage</b><br>Test class: com.ui.tests.ProjectListPageTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
-	at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1337190486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1337190486'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
-	at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.ProjectListPageTest@400cff1a</td></tr>
+<td>com.ui.tests.LoginPageTest@4de5031f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -136,12 +112,12 @@ function toggleAllBoxes() {
 <td title='com.ui.tests.ProjectDetailsPageTest.testUserRedirectsQuatationPageByClickingDetailedEstimate()'><b>testUserRedirectsQuatationPageByClickingDetailedEstimate</b><br>Test class: com.ui.tests.ProjectDetailsPageTest<br>Test method: To test user redirects quotation page on clicking on detailed estiomate link</td>
 <td></td>
 <td>0</td>
-<td>com.ui.tests.ProjectDetailsPageTest@41ee392b</td></tr>
+<td>com.ui.tests.ProjectDetailsPageTest@2d2e5f00</td></tr>
 <tr>
 <td title='com.ui.tests.ProjectDetailsPageTest.testQuotationDetails()'><b>testQuotationDetails</b><br>Test class: com.ui.tests.ProjectDetailsPageTest<br>Test method: To test quotation details are showing correctly</td>
 <td></td>
 <td>0</td>
-<td>com.ui.tests.ProjectDetailsPageTest@41ee392b</td></tr>
+<td>com.ui.tests.ProjectDetailsPageTest@2d2e5f00</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -158,8 +134,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1704359728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1704359728'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1852462645", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1852462645'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
 	at com.ui.tests.LoginPageTest.goToProjectListPage(LoginPageTest.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -174,31 +150,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
 <td>0</td>
-<td>com.ui.tests.LoginPageTest@3bbc39f8</td></tr>
-<tr>
-<td title='com.ui.tests.ProjectListPageTest.testUserRedirectProjectDetailsPageAfterSelectingProject()'><b>testUserRedirectProjectDetailsPageAfterSelectingProject</b><br>Test class: com.ui.tests.ProjectListPageTest<br>Test method: To test user can select project from uiand redirect project details page</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
-	at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace195181628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace195181628'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.ui.pages.LoginPage.doLogin()&quot; because &quot;this.loginPage&quot; is null
-	at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.ui.tests.ProjectListPageTest@400cff1a</td></tr>
+<td>com.ui.tests.LoginPageTest@4de5031f</td></tr>
 </table><p>
 </body>
 </html>

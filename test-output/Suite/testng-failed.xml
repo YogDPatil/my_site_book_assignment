@@ -6,14 +6,6 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.ui.tests.ProjectListPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="goToProjectDetailsPage"/>
-          <include name="testUserRedirectProjectDetailsPageAfterSelectingProject"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.ui.tests.ProjectListPageTest -->
       <class name="com.ui.tests.ProjectDetailsPageTest">
         <methods>
           <include name="testQuotationDetails"/>
