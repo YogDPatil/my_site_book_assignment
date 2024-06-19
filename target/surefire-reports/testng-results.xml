@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T12:25:02 IST" name="Surefire suite" finished-at="2024-06-19T12:25:09 IST" duration-ms="6624">
+    <groups>
+    </groups>
+    <test started-at="2024-06-19T12:25:02 IST" name="Surefire test" finished-at="2024-06-19T12:25:09 IST" duration-ms="6624">
+      <class name="com.ui.tests.ProjectListPageTest">
+        <test-method is-config="true" signature="goToProjectDetailsPage()[pri:0, instance:com.ui.tests.ProjectListPageTest@400cff1a]" started-at="2024-06-19T12:25:05 IST" name="goToProjectDetailsPage" finished-at="2024-06-19T12:25:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null
+at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToProjectDetailsPage -->
+        <test-method signature="testUserRedirectProjectDetailsPageAfterSelectingProject()[pri:0, instance:com.ui.tests.ProjectListPageTest@400cff1a]" started-at="2024-06-19T12:25:05 IST" name="testUserRedirectProjectDetailsPageAfterSelectingProject" description="To test user can select project from uiand redirect project details page" finished-at="2024-06-19T12:25:05 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null
+at com.ui.tests.ProjectListPageTest.goToProjectDetailsPage(ProjectListPageTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRedirectProjectDetailsPageAfterSelectingProject -->
+      </class> <!-- com.ui.tests.ProjectListPageTest -->
+      <class name="com.ui.tests.LoginPageTest">
+        <test-method is-config="true" signature="goToProjectListPage()[pri:0, instance:com.ui.tests.LoginPageTest@3bbc39f8]" started-at="2024-06-19T12:25:05 IST" name="goToProjectListPage" finished-at="2024-06-19T12:25:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null
+at com.ui.tests.LoginPageTest.goToProjectListPage(LoginPageTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToProjectListPage -->
+        <test-method signature="doLogin()[pri:0, instance:com.ui.tests.LoginPageTest@3bbc39f8]" started-at="2024-06-19T12:25:05 IST" name="doLogin" finished-at="2024-06-19T12:25:05 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.ui.pages.LoginPage.doLogin()" because "this.loginPage" is null
+at com.ui.tests.LoginPageTest.goToProjectListPage(LoginPageTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.ui.tests.LoginPageTest -->
+      <class name="com.ui.tests.ProjectDetailsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.ProjectDetailsPageTest@41ee392b]" started-at="2024-06-19T12:25:02 IST" name="setUp" finished-at="2024-06-19T12:25:05 IST" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToQuotationPage()[pri:0, instance:com.ui.tests.ProjectDetailsPageTest@41ee392b]" started-at="2024-06-19T12:25:05 IST" name="goToQuotationPage" finished-at="2024-06-19T12:25:08 IST" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToQuotationPage -->
+        <test-method signature="testUserRedirectsQuatationPageByClickingDetailedEstimate()[pri:0, instance:com.ui.tests.ProjectDetailsPageTest@41ee392b]" started-at="2024-06-19T12:25:08 IST" name="testUserRedirectsQuatationPageByClickingDetailedEstimate" description="To test user redirects quotation page on clicking on detailed estiomate link" finished-at="2024-06-19T12:25:09 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRedirectsQuatationPageByClickingDetailedEstimate -->
+        <test-method signature="testQuotationDetails()[pri:0, instance:com.ui.tests.ProjectDetailsPageTest@41ee392b]" started-at="2024-06-19T12:25:08 IST" name="testQuotationDetails" description="To test quotation details are showing correctly" finished-at="2024-06-19T12:25:09 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuotationDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.ProjectDetailsPageTest@41ee392b]" started-at="2024-06-19T12:25:09 IST" name="tearDown" finished-at="2024-06-19T12:25:09 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ui.tests.ProjectDetailsPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
