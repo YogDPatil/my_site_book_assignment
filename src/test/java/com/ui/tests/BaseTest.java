@@ -22,7 +22,7 @@ public abstract class BaseTest {
 	@BeforeTest
     public void setUp() {
         try {
-            //System.setProperty("webdriver.chrome.driver", "/Users/codeclouds-yogesh/Desktop/chromedriver"); // Set path to chromedriver
+          
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             String baseUrl = TestUtils.getValueFromPropertiesFile(Env.QA, "BASE_URL");
